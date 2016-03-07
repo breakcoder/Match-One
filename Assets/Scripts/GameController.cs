@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour {
     Systems _systems;
 
     void Start() {
+        //The answer to everything?
         Random.seed = 42;
 
         _systems = createSystems(Pools.pool);
